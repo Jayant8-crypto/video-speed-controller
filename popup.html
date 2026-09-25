@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Video Speed Controller</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Video Speed</h2>
+
+        <div class="status">
+            <span>Status</span>
+
+            <button id="powerBtn" class="power off">
+                OFF
+            </button>
+        </div>
+
+        <div class="speed-display">
+            <span id="speedValue">1x</span>
+        </div>
+
+        <div class="buttons">
+
+            <button id="speed1" class="speed-btn active">
+                1x
+            </button>
+
+            <button id="speed16" class="speed-btn">
+                16x
+            </button>
+
+        </div>
+
+        <div id="mediaStatus" class="media-status">
+            Checking media...
+        </div>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>
